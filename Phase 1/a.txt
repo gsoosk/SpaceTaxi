@@ -1,0 +1,54 @@
+ali register_passenger 111 123
+ali login 111
+mohammad register_passenger 222 1232
+mohammad login 222
+reza register_driver 111 222 Coronet 444 red
+gholi register_driver 324 2421 Coronet 66 blue
+admin login s3cret
+admin accept_registration reza
+admin accept_registration gholi
+reza login 111
+gholi login 324
+reza set_status available galaxy4,planet1
+gholi set_status available galaxy4,planet2
+ali request_trip galaxy4,planet9 galaxy2,planet2 galaxy3,planet2
+mohammad request_trip galaxy4,planet7 galaxy2,planet1
+reza show_trip_requests
+ali trip_status
+reza accept_trip_request ali
+ali trip_status
+reza arrived
+reza end_trip
+ali rate_driver 2
+ali get_credit
+mohammad get_credit
+ali charge_account 20
+ali get_credit
+admin set_time 1-22:2:22
+ali request_trip galaxy3,planet1 galaxy3,planet2
+reza show_trip_requests
+reza accept_trip_request ali
+reza arrived
+reza end_trip
+reza show_trip_requests
+ali rate_driver 4
+ali request_trip galaxy3,planet3 galaxy3,planet2
+reza show_trip_requests
+reza accept_trip_request ali
+reza arrived
+reza end_trip
+ali rate_driver 5
+ali request_trip galaxy3,planet3 galaxy3,planet2
+reza show_trip_requests
+reza accept_trip_request ali
+reza arrived
+reza end_trip
+ali rate_driver 5
+reza set_status available galaxy4,planet1
+admin set_time 3-22:4:3
+ali request_trip galaxy4,planet9 galaxy1,planet2
+admin driver_report reza 1-0:0:0 3-23:0:0
+admin passenger_report ali
+admin system_report
+admin system_report 1-0:0:0 3-23:3:3
+
