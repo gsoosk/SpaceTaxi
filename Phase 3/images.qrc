@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/Login">
+        <file>LoginUi.png</file>
+    </qresource>
+    <qresource prefix="/Register">
+        <file>RegisterUi.png</file>
+    </qresource>
+    <qresource prefix="/PassengerPanel">
+        <file>PassengerPanel.png</file>
+    </qresource>
+    <qresource prefix="/Charge">
+        <file>ChargeAccount.png</file>
+    </qresource>
+    <qresource prefix="/Rate">
+        <file>Rate.png</file>
+        <file>star1.png</file>
+        <file>star2.png</file>
+    </qresource>
+    <qresource prefix="/Request">
+        <file>EstimateAndRequest.png</file>
+    </qresource>
+</RCC>
